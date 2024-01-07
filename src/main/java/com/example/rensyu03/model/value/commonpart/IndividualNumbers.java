@@ -2,8 +2,10 @@ package com.example.rensyu03.model.value.commonpart;
 
 import com.example.rensyu03.service.validation.ValidationUtility;
 import com.example.rensyu03.util.MessageFormatter;
+import lombok.Getter;
 import lombok.NonNull;
 
+@Getter
 public class IndividualNumbers {
     private static final String ERROR_CODE = "10036";
     private static final String FIELD_NAME = "個別部数";

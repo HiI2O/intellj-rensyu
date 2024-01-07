@@ -5,8 +5,6 @@ import com.example.rensyu03.util.MessageFormatter;
 import lombok.Getter;
 import lombok.NonNull;
 
-import java.util.Objects;
-
 @Getter
 public class BundleIdIdentifier {
     private static final String ERROR_CODE = "10013";

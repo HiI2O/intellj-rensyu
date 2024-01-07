@@ -1,10 +1,9 @@
 package com.example.rensyu03.model.value;
 
-import com.example.rensyu03.exceptions.InvalidBillingPhoneValueException;
+
 import com.example.rensyu03.exceptions.InvalidValueException;
 import com.example.rensyu03.model.value.commonpart.*;
 import lombok.Getter;
-import lombok.NonNull;
 
 @Getter
 public class CommonPart {
